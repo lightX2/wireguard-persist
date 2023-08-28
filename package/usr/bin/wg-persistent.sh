@@ -2,7 +2,7 @@
 
 if [ -z "$1" ] || [ -z "$2" ]; then
   echo "enter host wg-interface in args"
-  return
+  exit 0
 fi
 
 CHECK_FILE=/tmp/wg-persist-$2

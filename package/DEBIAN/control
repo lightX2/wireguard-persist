@@ -1,0 +1,9 @@
+Package: wg-persist
+Version: 1.0
+Section: unknown
+Priority: optional
+Architecture: amd64
+Essential: no
+Installed-Size: 200
+Maintainer: light <lightsx2@gmail.com>
+Description:  WireGuard Persist

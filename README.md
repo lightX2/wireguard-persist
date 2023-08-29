@@ -7,11 +7,13 @@ Clone repository
 ## Building & install the app
 
 ```
-cd /usr/src/
-git clone https://github.com/lightX2/wireguard-persist.git
-cd wireguard-persist
-./build-deb.sh
-dpkg -i wg-persistent.deb
+wget -O - https://raw.githubusercontent.com/lightX2/wireguard-persist/master/install.sh | sudo sh
 ```
 
 
+## Usage
+```
+(sudo wg-persistent.sh 192.168.100.1 wg0)
+```
+
+for behave like service, place that to crontab

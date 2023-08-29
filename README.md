@@ -11,5 +11,7 @@ cd /usr/src/
 git clone https://github.com/lightX2/wireguard-persist.git
 cd wireguard-persist
 ./build-deb.sh
-dpkg -i package.deb
+dpkg -i wg-persistent.deb
 ```
+
+

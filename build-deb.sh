@@ -1,2 +1,2 @@
 #!/bin/bash
-dpkg-deb --build package
+dpkg-deb --build wg-persistent

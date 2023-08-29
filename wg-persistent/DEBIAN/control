@@ -1,4 +1,4 @@
-Package: wg-persist
+Package: wireguard-persist
 Version: 1.0
 Section: unknown
 Priority: optional

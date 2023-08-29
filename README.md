@@ -1,9 +1,6 @@
 # wireguard-persist
 WireGuard VPN reconnecting by ping utility pure on bash
 
-## Introduction
-Clone repository
-
 ## Building & install the app
 
 ```
